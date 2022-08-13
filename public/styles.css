@@ -79,14 +79,13 @@ button {
 }
 .imgContainer {
     position:relative;
-    height:100%;
-    width:100%;
+    display: flex;
+    justify-content: center;
 }
 #memeImg {
-    width:100%;
+    max-width:100%;
 }
 #topText, #bottomText{
-    margin: 0;
     text-align: center;
     width:100%;
     position: absolute;
@@ -98,8 +97,8 @@ button {
     -webkit-text-stroke: 2px black; /* width and color */
 }
 #topText {
-    top:1em;
+    top:1rem;
 }
 #bottomText{
-    bottom:1em;
+    bottom:1rem;
 }
