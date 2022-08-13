@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.6rem;
+    letter-spacing: -10;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+#root{
+    display:flex;
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width:550px;
+    background-color: #fff;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.573);
+    border-radius: 10px;
+    overflow:hidden;
+}
+header {
+    display: flex;
+    align-items: center;
+    color:#fff;
+    background: #A626D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #672280, #A626D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #672280, #A626D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px 35px; 
+}
+header img {
+    width: 40px;
+    height:40px;
+    margin-right: 15px;
+}
+h1 {
+    margin-right: auto;
+    font-size: 2rem;
+    font-weight:400;
+}
+p{
+    color: #fff;
+}
+.subtitle{
+    font-size: 1.4rem;
+}
+main{
+    padding: 35px; 
+    position:relative;
+}
+.form{
+    display:flex;
+    justify-content: space-between;
+}
+input, button {
+    padding: 0.8em 1em;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+}
+input {
+    width: 48%;
+}
+button {
+    font-size: 1.6rem;
+    margin: 1em 0;
+    padding: 0.8em 1em;
+    width: 100%;
+    border:none;
+    color:#fff;
+    background: #A626D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #672280, #A626D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #672280, #A626D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.imgContainer {
+    position:relative;
+    height:100%;
+    width:100%;
+}
+#memeImg {
+    width:100%;
+}
+#topText, #bottomText{
+    margin: 0;
+    text-align: center;
+    width:100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: medium;
+    font-size: 4rem;
+    -webkit-text-stroke: 2px black; /* width and color */
+}
+#topText {
+    top:1em;
+}
+#bottomText{
+    bottom:1em;
+}
