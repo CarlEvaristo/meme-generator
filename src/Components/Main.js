@@ -1,7 +1,5 @@
 import React from "react"
 
-
-
 function Main() {
     const [meme, setMeme] = React.useState({
         image: "https://i.imgflip.com/1ii4oc.jpg",
