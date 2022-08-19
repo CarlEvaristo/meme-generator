@@ -1,7 +1,5 @@
 import React from "react"
 
-
-
 function Main() {
     const [allMemes, setAllMemes] = React.useState()
     const [meme, setMeme] = React.useState({
